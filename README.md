@@ -2,7 +2,15 @@
 
 ## Stack:
 
-* Gulp 4.0, Pug, Sass
+* Gulp 4.0
+* WordPress: https://ru.wordpress.org/
+* jQuery: https://jquery.com/
+* jQuery FreeWall: http://vnjs.net/www/project/freewall/
+* Linea Icons: http://linea.io/
+* Magnific Popup: http://dimsemenov.com/plugins/magnific-popup/
+* NiceScroll: http://areaaperta.com/nicescroll/
+* Google Fonts: http://www.google.com/fonts
+* Lazy Load: http://www.appelsiini.net/projects/lazyload
 
 ## Getting started:
 
