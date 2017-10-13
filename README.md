@@ -1,4 +1,4 @@
-# Front-end installation
+# WP-portfolio
 
 ## Stack:
 
