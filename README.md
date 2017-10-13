@@ -1,4 +1,4 @@
-# WP-portfolio (educational project)
+# WP-portfolio
 
 ## Stack:
 
