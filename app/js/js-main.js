@@ -4,6 +4,11 @@ $(document).ready(function() {
         horizrailenabled : false
     });
 
+    $(".btn_mnu").click(function() {
+        $(this).toggleClass("active");
+        $(".left-side").toggleClass("active");
+    });
+
     //Цели для Яндекс.Метрики и Google Analytics
     $(".count_element").on("click", (function() {
         ga("send", "event", "goal", "goal");

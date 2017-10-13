@@ -1,0 +1,3 @@
+$("body").niceScroll({
+	horizrailenabled : false
+});

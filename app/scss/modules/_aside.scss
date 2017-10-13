@@ -1,0 +1,15 @@
+.left-side {
+  background-color: $aside-color;
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 50px;
+  height: 100vh;
+  z-index: 10;
+  color: $text-color;
+  transition: all .5s;
+}
+
+.active {
+  width: 300px;
+}

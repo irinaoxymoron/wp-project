@@ -1,0 +1,8 @@
+<?php
+$tags = wp_get_post_tags($post->ID);
+if ($tags) {
+	foreach($tags as $tag) {
+		echo ' ' . $tag->name;
+	}
+}
+?>
