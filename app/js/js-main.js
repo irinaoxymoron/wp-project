@@ -4,9 +4,9 @@ $(document).ready(function() {
         horizrailenabled : false
     });
 
-    $(".btn_mnu").click(function() {
-        $(this).toggleClass("active");
-        $(".left-side").toggleClass("active");
+    $(".aside__button").click(function() {
+        $(this).toggleClass("aside__button-active");
+        $(".aside").toggleClass("aside-active");
     });
 
     //Цели для Яндекс.Метрики и Google Analytics

@@ -1,4 +1,4 @@
-.left-side {
+.aside {
   background-color: $aside-color;
   position: fixed;
   left: 0;
@@ -8,8 +8,13 @@
   z-index: 10;
   color: $text-color;
   transition: all .5s;
-}
 
-.active {
-  width: 300px;
+  &-active {
+    width: 300px;
+  }
+
+  &__content {
+    position: absolute;
+    top: 50px;
+  }
 }
