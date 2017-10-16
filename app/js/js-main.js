@@ -48,6 +48,17 @@ $(document).ready(function() {
 	    }, 400);
     });
 
+    $(".gallery a").magnificPopup({
+        type : 'image',
+        gallery : {
+            enabled : true
+        },
+        removalDelay: 400,
+        mainClass: 'mfp-fade'
+    }).click(function() {
+        $("button.mfp-arrow").delay(1000).fadeIn();
+    });
+
     //Цели для Яндекс.Метрики и Google Analytics
     $(".count_element").on("click", (function() {
         ga("send", "event", "goal", "goal");

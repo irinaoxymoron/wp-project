@@ -23,3 +23,89 @@
   top: 50%;
   position: absolute;
 }
+
+.mfp-content {
+  width: 100%;
+}
+
+.mfp-container {
+  padding: 0;
+}
+
+img.mfp-img {
+  display: block;
+  height: auto;
+  max-height: none !important;
+  padding: 0;
+  max-width: 100%;
+}
+
+.mfp-figure button.mfp-close {
+  background-color: tomato;
+  height: 50px;
+  padding: 0;
+  position: fixed;
+  right: 15px;
+  text-align: center;
+  width: 50px;
+}
+
+/* magnific library opened */
+.mfp-zoom-out-cur .content {
+  left: -100%;
+}
+
+.mfp-figure {
+  background-color: transparent;
+}
+.mfp-figure::after {
+  bottom: 0;
+  top: 0;
+  background-color: #181818;
+}
+
+.mfp-bottom-bar {
+  margin-left: -20px;
+}
+button.mfp-arrow {
+  display: none;
+}
+
+/* overlay at start */
+.mfp-fade.mfp-bg {
+  opacity: 0;
+  -webkit-transition: all .5s;
+  -o-transition: all .5s;
+  transition: all .5s;
+  transition-delay: .4s;
+}
+/* overlay animate in */
+.mfp-fade.mfp-bg.mfp-ready {
+  opacity: 1;
+}
+/* overlay animate out */
+.mfp-fade.mfp-bg.mfp-removing {
+  opacity: 1;
+}
+
+/* content at start */
+.mfp-fade.mfp-wrap .mfp-content {
+  left: 100%;
+  -webkit-transition: all .4s;
+  -o-transition: all .4s;
+  transition: all .4s;
+}
+/* content animate it */
+.mfp-fade.mfp-wrap.mfp-ready .mfp-content {
+  left: 0;
+}
+/* content animate out */
+.mfp-fade.mfp-wrap.mfp-removing .mfp-content {
+  left: 100%;
+  -webkit-transition: all .4s;
+  -o-transition: all .4s;
+  transition: all .4s;
+}
+.mfp-fade.mfp-wrap.mfp-removing .mfp-arrow {
+  display: none!important;
+}
