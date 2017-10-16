@@ -1,0 +1,80 @@
+.form__contacts {
+  margin-top: 50px;
+  padding: 0;
+}
+
+.contacts__list {
+  padding-top: 15px;
+}
+
+.contacts__list li {
+  margin-bottom: 40px;
+}
+
+.contacts__list i {
+  font-size: 28px;
+  margin-right: 5px;
+  vertical-align: middle;
+}
+
+.contacts__list h3 {
+  color: $about-text;
+  margin: 20px 0 5px;
+  font-size: 20px;
+}
+
+.contacts__list p {
+  color: $about-text;
+  font-size: 16px;
+}
+
+.contacts__list a {
+  color: tomato;
+  text-decoration: underline;
+}
+
+.form__contacts form {
+  background-color: $bg-color;
+  padding: 30px;
+}
+
+.callback h3 {
+  margin-top: 0;
+  text-align: center;
+  margin-bottom: 25px;
+  font-size: 22px;
+  font-weight: normal;
+}
+
+.form__contacts label {
+  color: $form-color;
+  font-size: 13px;
+  letter-spacing: 3px;
+  width: 100%;
+  margin-bottom: 15px;
+  font-weight: bold;
+}
+.form__contacts input {
+  display: block;
+  width: 100%;
+}
+.form__contacts input,
+.form__contacts textarea {
+  background-color: #2e2e2e;
+  border: 1px solid #484848;
+  color: #fff;
+  display: block;
+  margin-top: 5px;
+  padding: 14px;
+  width: 100%;
+  max-width: 100%;
+  font-size: 15px;
+}
+.button {
+  background-color: tomato;
+  border: medium none;
+  display: block;
+  line-height: 42px;
+  margin: 35px auto 10px;
+  padding: 0 20px;
+}
