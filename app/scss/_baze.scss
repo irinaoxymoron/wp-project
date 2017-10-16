@@ -57,6 +57,16 @@ li{
   list-style: none;
 }
 
+a {
+  text-decoration: none;
+  color: $link-color;
+
+  &:hover {
+    color: $link-color;
+    text-decoration: none;
+  }
+}
+
 footer {
   margin-top: auto;
 }

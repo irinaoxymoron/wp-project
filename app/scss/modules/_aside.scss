@@ -51,3 +51,59 @@
 .aside-active .user__info {
   opacity: 1;
 }
+
+.main-nav {
+  margin-top: -110px;
+  transition: all .5s;
+  position: relative;
+  z-index: 5;
+
+  &__link {
+    padding: 10px 0 10px 50px;
+    display: block;
+    border-bottom: 1px solid $light-grey;
+    white-space: nowrap;
+    transition: all .5s;
+    background: $aside-color;
+    &:first-child {
+      border-top: 1px solid $light-grey;
+    }
+    
+    &:hover {
+      background: tomato;
+      color: $text-color;
+    }
+  }
+
+  &__item a::before {
+    font-family: "linea-basic-10";
+    display: inline-block;
+    font-size: 25px;
+    line-height: 0;
+    margin-left: -38px;
+    margin-right: 13px;
+    margin-top: -4px;
+    vertical-align: middle;
+    transition: all .5s;
+  }
+
+  &__item:nth-child(1) a::before {
+    content: "u";
+  }
+
+  &__item:nth-child(2) a::before {
+    content: "{";
+  }
+
+  &__item:nth-child(3) a::before {
+    content: "R";
+  }
+}
+
+.aside-active .main-nav__link::before {
+  margin-left: 0;
+}
+
+.aside-active .main-nav {
+  margin-top: 35px;
+}
