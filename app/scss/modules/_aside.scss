@@ -65,9 +65,6 @@
     white-space: nowrap;
     transition: all .5s;
     background: $aside-color;
-    &:first-child {
-      border-top: 1px solid $light-grey;
-    }
     
     &:hover {
       background: tomato;
@@ -98,6 +95,10 @@
   &__item:nth-child(3) a::before {
     content: "R";
   }
+}
+
+.aside__content li:first-child a {
+  border-top: 1px solid $light-grey;
 }
 
 .aside-active .main-nav__link::before {

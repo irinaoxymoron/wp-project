@@ -1,0 +1,49 @@
+.inside {
+  background: $about-bg;
+}
+
+.inside .content {
+  padding: 70px 10% 50px;
+
+  @media only screen and (max-width: 480px) {
+    padding: 50px 5% 40px;
+  }
+}
+
+.content__header {
+  text-align: center;
+}
+
+.content__header img {
+  width: 220px;
+  height: 220px;
+  border-radius: 50%;
+  margin-bottom: 35px;
+
+  @media only screen and (max-width: 480px) {
+    width: 180px;
+    height: 180px;
+    margin-bottom: 20px;
+  }
+}
+
+.content__header h1 {
+  color: $about-text;
+  font-size: 36px;
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+
+.content__header p {
+  color: $about-text;
+  letter-spacing: 3px;
+}
+
+.content__body {
+  margin-top: 35px;
+}
+
+.content__body p {
+  color: $about-text;
+  font-size: 16px;
+}

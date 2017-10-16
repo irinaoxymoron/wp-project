@@ -40,14 +40,14 @@ $(document).ready(function() {
         wall.fitWidth();
     });
 
-    $(".filter__label").click(function() {
-	    $(".filter__label").removeClass("active");
-	    var filter = $(this).addClass("active").data("filter");
-	    wall.filter(filter);
-	    setTimeout(function() {
-		    $(window).resize();
-		    wall.fitWidth();
-	    }, 400);
+    $(".filter_label").click(function() {
+        $(".filter_label").removeClass("active");
+        var filter = $(this).addClass("active").data("filter");
+        wall.filter(filter);
+        setTimeout(function() {
+            $(window).resize();
+            wall.fitWidth();
+        }, 400);
     });
 
     $(".gallery a").magnificPopup({
