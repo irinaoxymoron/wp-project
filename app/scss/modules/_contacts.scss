@@ -36,6 +36,10 @@
 .form__contacts form {
   background-color: $bg-color;
   padding: 30px;
+
+  @media only screen and (max-width: 480px) {
+    padding: 15px;
+  }
 }
 
 .callback h3 {
