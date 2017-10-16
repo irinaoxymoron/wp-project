@@ -5,6 +5,8 @@ $(document).ready(function() {
         "verge" : "500"
     });
 
+    $(".gallery").css("min-height", $(document).height()*1.1);
+
     $(".aside__button").click(function() {
         $(this).toggleClass("aside__button-active");
         $(".aside").toggleClass("aside-active");

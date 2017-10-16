@@ -8,7 +8,6 @@
 .gallery a{
   overflow: hidden;
   width: 320px;
-  min-height: 50px;
   display: block;
 }
 
@@ -24,7 +23,6 @@
 
 .aside-active + .content {
   left: 250px;
-  transition: all .5s;
   transition-delay: .5s;
 }
 
