@@ -1,0 +1,71 @@
+.content {
+  position: relative;
+  margin: 5px 5px 55px 55px;
+  left: 0;
+  transition: all .4s;
+}
+
+.gallery a{
+  overflow: hidden;
+  width: 320px;
+  min-height: 50px;
+  display: block;
+}
+
+.gallery img {
+  display: block;
+  width: 100%;
+  transition: all 15s;
+
+  &:hover {
+    transform: scale(5);
+  }
+}
+
+.aside-active + .content {
+  left: 250px;
+  transition: all .5s;
+  transition-delay: .5s;
+}
+
+.filter__items {
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  color: $text-color;
+  text-align: right;
+  width: 100%;
+  padding: 10px 10px 0;
+  background: $bg-color;
+
+  @media only screen and (max-width : 480px) {
+    padding: 10px 5px 0;
+  }
+}
+
+.filter__label {
+  background-color: transparent;
+  transition: all .5s;
+  padding: 8px 15px;
+  opacity: .4;
+  margin: 0 3px 15px;
+  font-size: 12px;
+  letter-spacing: 3px;
+  border: 1px solid $text-color;
+  
+  &:hover {
+    background: tomato;
+    opacity: 1;
+    border-color: tomato;
+  }
+
+  @media only screen and (max-width : 480px) {
+    margin: 0 3px 10px;
+  }
+}
+
+.active {
+  background: tomato;
+  opacity: 1;
+  border-color: tomato;
+}
