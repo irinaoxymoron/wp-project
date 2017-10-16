@@ -5,7 +5,7 @@ $(document).ready(function() {
         "verge" : "500"
     });
 
-    $(".gallery").css("min-height", $(document).height()*1.1);
+    $(".gallery").css("min-height", $(document).height()*0.2);
 
     $(".aside__button").click(function() {
         $(this).toggleClass("aside__button-active");
@@ -14,7 +14,7 @@ $(document).ready(function() {
 
     $(".gallery img").lazyload({
         effect : "fadeIn",
-        threshold : 1000
+        threshold : 10000
     }).parent().hover(function() {
         $(".gallery a").css("opacity", ".8");
         $(this).css("opacity", "1");
@@ -40,8 +40,8 @@ $(document).ready(function() {
         wall.fitWidth();
     });
 
-    $(".filter_label").click(function() {
-        $(".filter_label").removeClass("active");
+    $(".filter__label").click(function() {
+        $(".filter__label").removeClass("active");
         var filter = $(this).addClass("active").data("filter");
         wall.filter(filter);
         setTimeout(function() {
